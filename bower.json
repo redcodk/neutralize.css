@@ -1,0 +1,10 @@
+{
+"name": "neutralize-css",
+"version": "1.0",
+"main": "neutralize.css",
+"author": "Red Co.",
+"ignore": [
+"component.json",
+"package.json"
+]
+}
