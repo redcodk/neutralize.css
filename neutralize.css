@@ -1,0 +1,272 @@
+    /* "Neutralize.css" by Red Co.
+    ========================================
+    http://github.com/redcodk/neutralize.css
+    ========================================
+    v1.0 – No license (public domain) */
+    
+    /* I owe Nicolas Gallagher and Eric Meyer all the credit for tracking down both common – as well as some not so common – browser rendering errors, bugs and inconsistencies and coming up with genious fixes for the whole world to enjoy.
+    "Normalize.css" by Nicolas Gallagher – http://necolas.github.com/normalize.css/
+    "Meyer Reset" by Eric Meyer – http://meyerweb.com/eric/tools/css/reset/ */
+    
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+    blockquote, pre, a, abbr, acronym, address, big, cite,
+    code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+    sup, tt, var, b, u, i, center, dl, dt, dd, ol, nav ul, nav li,
+    fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+    tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+    footer, header, hgroup, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    /* Block reset for HTML5 elements not defined in Internet Explorer */
+    article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+        display: block;
+    }
+    
+    /* Corrects inline-block display not defined in Internet Explorer 6, 7, 8, 9 and Firefox 3 */
+    audio, canvas, video {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+    
+    /* Prevents modern browsers from displaying "audio" without controls */
+    audio: not([controls]) {
+        display: none;
+    }
+    
+    /* Addresses styling for "hidden" attribute not present in Internet Explorer 7, 8, 9, and Firefox 3 (no IE6 support) */
+    [hidden] {
+        display:none;
+    }
+    
+    /* Base
+    1) Corrects odd text resizing in Internet Explorer 6 and 7 when body font-size is set
+    using em units - http://clagnut.com/blog/348/#c790
+    2) Keeps page centred in all browsers regardless of content height.
+    3) Prevents iOS text size adjust after orientation change, without
+    disabling user zoom - http://www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for
+    _ios_without_disabling_user_zoom/ */
+    html {
+        font-size: 100%; /* 1 */
+        overflow-y: scroll; /* 2 */
+        -webkit-text-size-adjust: 100%; /* 3 */
+        -ms-text-size-adjust: 100%;
+    }
+    
+    /* Addresses font-family inconsistency between 'textarea' and other
+    form elements */
+    body, button, input, select, textarea {
+        font-family: sans-serif;
+    }
+    
+    /* Addresses links outline displayed oddly in Chrome */
+    a:focus {
+        outline: none;
+    }
+    
+    /* Improves readability on focus and hovering in all browsers – http://people.opera.com/patrickl/experiments/keyboard/test/ */
+    a:hover, a:active {
+        outline: 0;
+    }
+    
+    /* Neutralize smaller font-size on "section" and "article" elements in Firefox 4+, Safari 5 and Chrome */
+    h1 {
+       font-size: 2em;
+    }
+    
+    /* Addresses styling not present in Internet Explorer 7, 8, 9, Safari 5 and Chrome */
+    abbr[title] {
+       border-bottom: 1px dotted;
+    }
+    
+    /* Addresses font-weight set to "bolder" in Firefox 3+, Safari 4, 5 and Chrome */
+    b,strong {
+        font-weight :bold;
+    }
+    
+    blockquote {
+       margin: 1em 40px;
+    }
+    
+    /* Addresses styling not present in Safari 5 and Chrome */
+    dfn {
+        font-style: italic;
+    }
+    
+    /* Addresses styling not present in Internet Explorer 6, 7, 8 and 9 */
+    mark {
+        background: #ff0;
+        color: #000;
+    }
+    
+    /* Corrects font family set oddly in Internet Explorer 6, Safari 4, 5 and Chrome
+    en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
+    pre, code, kbd, samp {
+        font-family: monospace, serif;
+        _font-family: "courier new", monospace;
+        font-size: 1em;
+    }
+    
+    /* Improves readability of pre-formatted text in all browsers */
+    pre {
+        white-space: pre;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    
+    /* Blockqoutes
+    1) Addresses CSS quotes not supported in Internet Explorer 6 and 7
+    2) Addresses quote property not supported in Safari 4 */
+    blockquote, q { 
+        quotes: none; /* 1 */
+    }
+    
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: ""; /* 2 */
+        content: none;
+    }
+    
+    small {
+        font-size: 75%;
+    }
+    
+    /* Prevents "sub" and "sup" affecting line-height in all browsers – https://gist.github.com/unruthless/413930 */
+    sub, sup {
+        font-size:75%;
+        line-height:0;
+        position:relative;
+        vertical-align:baseline;
+    }
+    
+    sup {
+        top:-0.5em;
+    }
+    
+    sub {
+        bottom:-0.25em;
+    }
+    
+    /* Lists reset */
+    article ul, article ol {
+        margin-left: 0;
+        padding: 0 0 0 40px;
+    }
+    
+    article dd {
+        margin: 0 0 0 40px;
+    }
+    
+    nav ul, nav ol {
+        list-style: none;
+        list-style-image: none;
+    }
+    
+    /* Improves image quality when scaled in Internet Explorer 7 – http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things
+    -client-side-image-resizing/ */
+    img {
+        -ms-interpolation-mode:bicubic;
+    }
+    
+    /* Corrects overflow displayed oddly in IE9 */
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    
+    /* Define consistent border, margin, and padding */
+    fieldset {
+        border: 1px solid #c0c0c0;
+        margin: 0 2px;
+        padding: 0.35em 0.625em 0.75em;
+    }
+    
+    /* Legend reset
+    1) Corrects color not being inherited in Internet Explorer 6, 7, 8 and 9
+    2) Corrects alignment displayed oddly in Internet Explorer 6 and 7 */
+    legend {
+        border: 0; /* 1 */
+        *margin-left: -7px; /* 2 */
+    }
+    
+    /* Input reset
+    1) Corrects font size not being inherited in all browsers
+    2) Addresses margins set differently in Internet Explorer 6, 7, Firefox 3+, Safari 5 and Chrome
+    3) Improves appearance and consistency in all browsers */
+    button, input, select, textarea {
+        font-size: 100%; /* 1 */
+        margin: 0; /* 2 */
+        vertical-align: baseline; /* 3 */
+        *vertical-align: middle;
+    }
+    
+    /* Addresses Firefox 3 and 4 setting line-height on "input" using !important in the UA stylesheet */
+    button, input {
+        line-height: normal;
+    }
+    
+    /* Input buttons
+    1) Improves usability and consistency of cursor
+    style between image-type "input" and others
+    2) Corrects inability to style clickable "input"
+    types in iOS
+    3) Removes inner spacing in Internet Explorer 7 without affecting
+    normal text inputs. Known issue:inner spacing remains in Internet Explorer 6 */
+    button, input[type="button"], input[type="reset"], input[type="submit"] {
+        cursor: pointer; /* 1 */
+        -webkit-appearance: button; /* 2 */
+        *overflow: visible; /* 3 */
+    }
+    
+    /* Checkbox and radiobuttons
+    1) Addresses box sizing set to content-box in Internet Explorer 8 and 9
+    2) Removes excess padding in Internet Explorer 8 and 9 */
+    input[type="checkbox"],input[type="radio"]{
+        box-sizing: border-box; /* 1 */
+        padding: 0; /* 2 */
+    }
+    
+    /* Searchfield
+    1) Addresses appearance set to searchfield in Safari 5 and Chrome
+    2) Addresses box-sizing set to border-box in Safari 5 and Chrome (include -moz to future-proof) */
+    input[type="search"] {
+        -webkit-appearance: textfield; /* 1 */
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box; /* 2 */
+        box-sizing: content-box;
+    }
+    
+    /* Removes inner padding that is displayed in Safari 5 and Chrome on OS X */
+    input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+    
+    /* Removes inner padding and border in Firefox 3+ – http://sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+    button::-moz-focus-inner, input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    
+    /* Textarea
+    1) Removes default vertical scrollbar in Internet Explorer 6, 7, 8 and 9
+    2) Improves readability and alignment in all browsers
+    3) Disables resizing of in all browsers */
+    textarea {
+        overflow: auto; /* 1 */
+        vertical-align: top; /* 2 */
+        resize: none; /* 3 */
+    }
+    
+    /* Minimize spacing between table cells */
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
