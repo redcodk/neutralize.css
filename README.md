@@ -18,23 +18,23 @@ Happy coding!
 * [Bower](http://bower.io/): `bower install --save neutralize.css`
 * [Download](http://redcodk.github.io/neutralize/latest/neutralize.css).
 
-You should add Neutralize.css _before_ any other stylesheets in your header.
+You should include Neutralize.css _before_ any other stylesheets in your header.
 
 
 ## Browser support
 
-* Google Chrome (latest)
-* Mozilla Firefox (latest)
-* Mozilla Firefox 4
-* Opera (latest)
-* Apple Safari 6+
-* Internet Explorer 9+
+*  Google Chrome (latest)
+*  Mozilla Firefox (latest)
+*  Mozilla Firefox 4
+*  Opera (latest)
+*  Safari 6+
+*  Internet Explorer 9+
 
 
 ## Credit:
 
 "Normalize.css" by Nicolas Gallagher – http://necolas.github.io/normalize.css/
-Copyright © Nicolas Gallagher and Jonathan Neal (MIT)
+- Copyright © Nicolas Gallagher and Jonathan Neal (MIT)
 
 "Reset.css" by Eric Meyer – http://meyerweb.com/eric/tools/css/reset/
-No license (public domain)
+- No license (public domain)
