@@ -1,0 +1,16 @@
+{
+"name": "Neutralize.css",
+"version": "1",
+"description": "Neutralize.css as a node packaged module",
+"style": "neutralize.css",
+"files": [
+"neutralize.css"
+],
+"homepage": "http://github.com/redcodk/neutralize.css",
+"repository": {
+"type": "git",
+"url": "git://github.com/redcodk/neutralize.css.git"
+},
+"author": "Red Co.",
+"license": "none"
+}
