@@ -16,8 +16,8 @@ Happy coding!
 * [npm](http://npmjs.org/): `npm install --save neutralize.css`
 * [Component(1)](https://github.com/component/component/): `component install redcodk/neutralize.css`
 * [Bower](http://bower.io/): `bower install --save neutralize.css`
-* [Download](http://redcodk.github.io/neutralize.css/latest/neutralize.css).
-* [Download minified](http://redcodk.github.io/neutralize.css/latest/neutralize.min.css).
+* [Download](http://redcodk.github.io/neutralize.css/latest/neutralize.css)
+* [Download minified](http://redcodk.github.io/neutralize.css/latest/neutralize.min.css)
 
 You should include Neutralize.css _before_ any other stylesheets in your header.
 
@@ -32,10 +32,11 @@ You should include Neutralize.css _before_ any other stylesheets in your header.
 *  Internet Explorer 9+
 
 
-## Credit:
+## Credit
 
 "Normalize.css" by Nicolas Gallagher – http://necolas.github.io/normalize.css/
 - Copyright © Nicolas Gallagher and Jonathan Neal (MIT)
+
 
 "Reset.css" by Eric Meyer – http://meyerweb.com/eric/tools/css/reset/
 - No license (public domain)
