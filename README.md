@@ -13,9 +13,6 @@ Happy coding!
 
 ## Installation
 
-* [npm](http://npmjs.org/): `npm install --save neutralize.css`
-* [Component(1)](https://github.com/component/component/): `component install redcodk/neutralize.css`
-* [Bower](http://bower.io/): `bower install --save neutralize.css`
 * [Download](http://redcodk.github.io/neutralize.css/latest/neutralize.css)
 * [Download minified](http://redcodk.github.io/neutralize.css/latest/neutralize.min.css)
 
